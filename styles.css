@@ -8,6 +8,7 @@
 }
 body{
     width: 100%;
+    height: 100vh;
     background-color: whitesmoke;
     box-sizing: border-box;
 }
@@ -308,13 +309,8 @@ i {
 .sec-1{
     position: relative;
     width: 100%;
-    height: 1190px;
+    height: 100vh;
     box-sizing: border-box;
-}
-
-.slide img{
-    width: 1360px;
-    height: 100%;
 }
 
 .container {
@@ -322,12 +318,7 @@ i {
     width: 100%;
     height: auto;
 }
-.slider{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    height: 560px;
-}
+
 .image-box{
     display: flex;
     position: absolute;
@@ -458,5 +449,4 @@ i {
     width: 275px;
     cursor: pointer;
     height: 280px;
-    ;
 }
