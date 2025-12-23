@@ -402,6 +402,8 @@ i {
 .box-a{
     overflow: hidden; /*hide the contents that exceeds boundaries*/
     background-color: white;
+    
+    
 }
 .box div img{
     width: 167px;
@@ -444,7 +446,7 @@ i {
     height: 30px;
     border: none;
 }
-.box.box-c img{
+.box.box-c img{ 
     margin: 0 20px;
     width: 275px;
     cursor: pointer;
