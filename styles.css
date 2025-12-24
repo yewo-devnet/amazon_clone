@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0;
     text-decoration: none;
@@ -6,22 +6,24 @@
     list-style: none;
 
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     background-color: whitesmoke;
     box-sizing: border-box;
 }
 
-.first{
-    width: 100%;  
+.first {
+    width: 100%;
     height: 70px;
     background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.first img{
+
+.first img {
     width: 130px;
     margin: 0 10px;
     padding: 5px 10px;
@@ -29,16 +31,16 @@ body{
     border-radius: 3px;
 }
 
-.first{
+.first {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .flex span,
@@ -46,23 +48,24 @@ i {
     color: white;
 }
 
-.logo{
+.logo {
     flex: 0.18;
     margin-right: 10px;
     justify-content: space-between;
 }
-.map{
+
+.map {
     border: 1px solid transparent;
     border-radius: 3px;
 }
 
-.map i{
+.map i {
     margin-top: 17px;
     padding-left: 5px;
     font-size: 17px;
 }
 
-.map div{
+.map div {
     padding: 5px;
     display: flex;
     cursor: pointer;
@@ -73,7 +76,8 @@ i {
     font-weight: 400;
     font-size: 13px;
 }
-.map div span{
+
+.map div span {
     font-weight: bold;
 }
 
@@ -83,6 +87,7 @@ i {
     margin-right: 10px;
     align-items: center;
 }
+
 .input {
     width: 100%;
     background-color: white;
@@ -95,15 +100,15 @@ i {
     justify-content: space-between;
 }
 
-.input input{
+.input input {
     outline: none;
     width: 80%;
     font-size: 16px;
     padding: 10px 2px;
-    border: none; 
+    border: none;
 }
 
-.input .fa-search{ 
+.input .fa-search {
     color: rgb(51, 51, 51);
     padding: 10px 15px;
     font-size: 20px;
@@ -112,15 +117,16 @@ i {
     border-radius: 0px 5px 5px 0;
 }
 
-.input div{
+.input div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-right: 1px solid gray;
-    background-color: rgb(236, 234, 234) ;
+    background-color: rgb(236, 234, 234);
     padding: 6px 0;
 }
-.input div span{
+
+.input div span {
     border-radius: 5px 0 0 5px;
     color: rgb(51, 51, 51);
     padding: 6px 5px;
@@ -128,16 +134,18 @@ i {
     cursor: pointer;
 }
 
-.input .fa-caret-down{
+.input .fa-caret-down {
     color: rgb(51, 51, 51);
     cursor: pointer;
     padding: 5px;
 }
-.lang i{
+
+.lang i {
     padding: 0;
     margin: 0;
     color: gray;
 }
+
 .lang {
     padding: 5px;
     display: flex;
@@ -146,7 +154,8 @@ i {
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.right img{
+
+.right img {
     width: 30px;
     height: 30px;
     padding: 4px;
@@ -154,7 +163,8 @@ i {
     padding-top: 10px;
     cursor: pointer;
 }
-.sign{
+
+.sign {
     display: flex;
     flex-direction: column;
     padding: 3px 6px;
@@ -162,28 +172,34 @@ i {
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.sign span:first-child{
+
+.sign span:first-child {
     font-weight: 400;
     font-size: 13px;
 }
+
 .sign span {
     display: inline-block;
     width: 100%;
     font-weight: bold;
 }
-.flex .ac span{
+
+.flex .ac span {
     font-size: 15px;
-    margin-right: 5px ;
+    margin-right: 5px;
     font-weight: bold;
 }
-.fa-shopping-cart{
+
+.fa-shopping-cart {
     font-size: 30px;
 }
-.ca{
+
+.ca {
     font-size: 14px;
     font-weight: bold;
 }
-.cart{
+
+.cart {
     align-items: flex-end;
     position: relative;
     padding: 5px 10px;
@@ -191,7 +207,8 @@ i {
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.cart p{
+
+.cart p {
     position: absolute;
     font-weight: bolder;
     color: #131a22;
@@ -199,35 +216,41 @@ i {
     left: 23px;
 }
 
-.cart:hover{
+.cart:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.logo img:hover{
+
+.logo img:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.map:hover{
+
+.map:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.lang:hover{
+
+.lang:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.sign:hover{
+
+.sign:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.input .fa-search:hover{
+
+.input .fa-search:hover {
     background-color: #fdae46;
 }
-.input div:hover{
-    background-color: rgb(204 , 202, 202);
+
+.input div:hover {
+    background-color: rgb(204, 202, 202);
     color: black;
 }
 
-.second{
+.second {
     width: 100%;
     height: 42px;
     background-color: #232f3e;
@@ -235,9 +258,10 @@ i {
     align-items: center;
     color: white;
     overflow: hidden;
-       
+
 }
-.second ul{
+
+.second ul {
     align-items: center;
     list-style: none;
     display: flex;
@@ -245,15 +269,17 @@ i {
 
 }
 
-.second span{
+.second span {
     font-size: 15px;
 }
-.second-1 div i{
+
+.second-1 div i {
     font-size: 20px;
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 3px;
 }
+
 .second li {
     padding: 5px 10px;
     font-size: 15px;
@@ -262,51 +288,59 @@ i {
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.second-1{
+
+.second-1 {
     flex: 0.06;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .second-1 div {
     display: flex;
     flex: 0.74;
     justify-content: flex-start;
 }
-.second-2{
+
+.second-2 {
     display: flex;
     flex: 0.74;
     justify-content: flex-start;
 }
-.second-3{
+
+.second-3 {
     flex: 0.2;
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
     overflow: hidden;
 }
-.second-3  span{
+
+.second-3 span {
     padding: 5px 10px;
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.second-1 div span{
+
+.second-1 div span {
     padding: 5px;
     cursor: pointer;
 }
-.second-1 div:hover{
+
+.second-1 div:hover {
     border: 1px solid white;
 }
 
-.second-2 li:hover{
-    border: 1px solid white;
-}
-.second-3 span:hover{
+.second-2 li:hover {
     border: 1px solid white;
 }
 
-.sec-1{
+.second-3 span:hover {
+    border: 1px solid white;
+}
+
+.sec-1 {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -319,41 +353,64 @@ i {
     height: auto;
 }
 
-.image-box{
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    /* Adjust based on image aspect ratio or use auto */
+    /* Since we want it to be the background mainly */
+}
+
+.image-box {
     display: flex;
-    position: absolute;
-    animation: carousel 15s alternate infinite;
+    width: 300%;
+    /* 3 images */
+    animation: sliderAnimation 15s infinite;
 }
-@keyframes carousel {
-    0%{
-        left: 0;
-    }
-    20%{
-        left: 0%
-    }
-    24%{
-        left: -1360px;
-    }
-    50%{
-        left: -1360px;
-    }
-    54%{
-        left: calc(-1360*2px);
-    }
-    80%{
-        left: calc(-1360*2px);
-    }
-    84%{
-        left: calc(-1360*3px);
-    }
-    100%{
-        left: calc(-1360*3px);
-    }
-  
+
+.image-box img {
+    width: 33.333%;
+    height: auto;
+    /* object-fit: cover; if we want to force height */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0));
 }
-.container-1{  /*this conatiner is on top of the slider and it is has a transparent background*/
-    position: absolute /*ndaiwala man*/;
-    z-index: 1 /*placing on top ,,,z-coordinate waku ele uja*/;
+
+@keyframes sliderAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(0);
+    }
+
+    35% {
+        transform: translateX(-33.333%);
+    }
+
+    65% {
+        transform: translateX(-33.333%);
+    }
+
+    70% {
+        transform: translateX(-66.666%);
+    }
+
+    100% {
+        transform: translateX(-66.666%);
+    }
+}
+
+.container-1 {
+    /*this conatiner is on top of the slider and it is has a transparent background*/
+    position: absolute
+        /*ndaiwala man*/
+    ;
+    z-index: 1
+        /*placing on top ,,,z-coordinate waku ele uja*/
+    ;
     top: 230px;
     left: 0;
     width: 100%;
@@ -361,82 +418,125 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom, transparent, #eaeded 30% );
+    background: linear-gradient(to bottom, transparent, #eaeded 30%);
 }
-.container-1 .para{
+
+.container-1 .para {
     background-color: rgb(238, 234, 234);
     width: 100%;
     text-align: center;
 }
-.container-1 div:first-child p{
+
+.container-1 div:first-child p {
     font-size: 14px;
     padding: 12px 0;
 }
-.product-comp{
+
+.product-comp {
     width: 100%;
     height: 100%;
     display: flex;
     box-sizing: border-box;
     margin: 20px 0;
-    justify-content: space-around /*zochitika ngati center man*/;
+    justify-content: space-around
+        /*zochitika ngati center man*/
+    ;
 }
-.product-comp .box{
+
+.product-comp .box {
     width: 315px;
     height: 400px;
     background-color: white;
 }
-.box h3{
+
+.box h3 {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 20px;
     margin-bottom: 10px;
     color: rgb(43, 42, 42);
 }
-.box a{
+
+.box a {
     font-size: 13px;
     margin-left: 20px;
-    display: block; /*kusanja mwa ndondomeko - stack*/
-    padding-top: 30px;
-    
+    display: block;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    /* Ensure space at bottom */
+    color: #007185;
+    /* Amazon link color */
 }
-.box-a{
-    overflow: hidden; /*hide the contents that exceeds boundaries*/
+
+/* Ensure box header/content/footer spacing */
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box-a {
+    flex-grow: 1;
+    /* Pushes the 'a' tag to the bottom if there is leftover space */
+    /* But since box-a also has layout duties, this works well with flex column */
+}
+
+.box-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
     background-color: white;
-    
-    
 }
-.box div img{
-    width: 167px;
-    height: 120px;
+
+.box div img {
+    /* Generic for safety, but typically box-a div img covers it */
+    width: 100%;
     cursor: pointer;
-    margin-left: -20px;
-    margin-right: 0;
 }
-.box-a div{
-    display: inline-block; /* horizontal blocks of elements*/
+
+.box-a div {
+    width: 45%;
+    margin-bottom: 20px;
 }
-.box-a div span{
+
+.box-a div img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.box-a div span {
     display: block;
     font-size: 13px;
-    margin-left: 20px;
+    margin-top: 5px;
 }
-.box-b{
+
+.box-b {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.box-b .best{
+
+.box-b .best {
     background-color: white;
     height: 130px;
     width: 315px;
 }
-.best h3{
+
+.best h3 {
     font-size: 21px;
     margin: 20px;
     margin-bottom: 15px;
 }
-.best button{
+
+.best button {
     border-radius: 7px;
     box-shadow: 1px 2px 5px rgb(211, 207, 207);
     color: rgb(43, 42, 42);
@@ -446,9 +546,167 @@ i {
     height: 30px;
     border: none;
 }
-.box.box-c img{ 
+
+/* Overrides for single-item boxes */
+.box.box-c .box-a,
+.box.box-d .box-a {
+    display: block;
+    padding: 0;
+}
+
+.box.box-c .box-a div,
+.box.box-d .box-a div {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.box.box-c img {
     margin: 0 20px;
     width: 275px;
-    cursor: pointer;
     height: 280px;
+    object-fit: contain;
+}
+
+.box.box-d img {
+    margin: 0 20px;
+    width: 275px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.sub-box {
+    width: 315px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box.box-d {
+    height: 250px;
+    background-color: white;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+
+    /* Header Adjustments */
+    .first {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .first .flex.logo {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .first .input {
+        width: 95%;
+        margin: 10px auto;
+        flex: unset;
+    }
+
+    .first .right {
+        display: none;
+        /* Simplify header for mobile, hide right menu for now or stack it */
+    }
+
+    /* Navigation Bar */
+    .second {
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: flex-start;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .second::-webkit-scrollbar {
+        display: none;
+    }
+
+    .second-1,
+    .second-2,
+    .second-3 {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    .second-1 {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    .second-2 ul {
+        padding-left: 0;
+        display: flex;
+    }
+
+    .second-3 {
+        margin-right: 10px;
+        justify-content: flex-start;
+    }
+
+    /* Slider Adjustments */
+    .container-1 {
+        top: 250px;
+        /* Push content down slightly less */
+    }
+
+    .slider {
+        height: 250px;
+        /* Smaller height for mobile */
+    }
+
+    .image-box {
+        width: 300%;
+        animation: sliderAnimation 15s infinite;
+        /* Keep animation running */
+        overflow-x: hidden;
+    }
+
+    .image-box img {
+        width: 33.333%;
+        /* Restore percentage width for animation to work */
+        height: 250px;
+        object-fit: cover;
+    }
+
+    /* Product Grid */
+    .product-comp {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .product-comp .box,
+    .sub-box {
+        width: 95%;
+        margin-bottom: 20px;
+        height: auto;
+        /* Allow auto height */
+        min-height: 400px;
+    }
+
+    .box-b .best {
+        width: 100%;
+    }
+
+    .sub-box {
+        height: auto;
+        gap: 20px;
+    }
+
+    .box.box-c img,
+    .box.box-d img {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .box.box-d {
+        height: auto;
+    }
 }
